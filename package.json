@@ -1,0 +1,44 @@
+{
+    "name": "Black-Dragon",
+    "version": "8.0.0",
+    "description": "Multi device whatsapp bot.",
+    "main": "index.js",
+    "type": "commonjs",
+    "license": "GPL-3.0",
+  "scripts": {
+     "start": "pm2 start index.js --deep-monitoring --attach --name dragon",
+     "stop": "pm2 stop dragon",
+     "restart": "pm2 restart dragon"
+     },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/nimesh-official/Black-Dragon.git"
+  },
+  "keywords": [
+  "whatsapp",
+  "wabot"
+  ],
+  "author": "Nimesh-Official",
+  "developer": "Nimesh-Official",
+  "homepage": "https://github.com/nimesh-official/Black-Dragon",
+  "dependencies": {
+  "@adiwajshing/baileys": "git+https://github.com/WhiskeySockets/Baileys.git",
+  "pino": "^7.0.5",
+  "pm2": "^5.2.0",
+  "util": "^0.12.4",
+  "express": "latest",
+  "axios": "^1.2.5",
+  "file_size_url": "^1.0.4",
+  "cheerio": "^1.0.0-rc.12",
+  "@bochilteam/scraper": "^4.0.22-alpha.0",
+  "fs-extra": "^11.1.0",
+  "api-dylux": "latest",
+  "mfiredlcore-vihangayt": "^1.0.0",
+  "path": "^0.12.7",
+  "youtubedl-core": "^4.11.4",
+  "node-fetch": "^2.6.1" ,
+  "megajs": "^1.1.0",
+  "vm": "^0.1.0",
+  "qrcode-terminal": "^0.12.0"
+  }
+  }
