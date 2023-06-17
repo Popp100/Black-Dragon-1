@@ -1,0 +1,54 @@
+{
+  "name": "Black-Dragon",
+  "description": "A Whatsapp md bot built in NodeJs to make experience better",
+  "logo": "",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device","baileys"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "SESSION_ID": {
+  "description": "Your session id",
+      "value": ""
+  },
+  "BOT_NAME": {
+    "description": "Your bot name",
+     "value" : "ʙʟᴀᴄᴋ-ᴅʀᴀɢᴏɴ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ"
+    },
+    "OWNER_NAME": {
+      "description": "Bot Owner name",
+       "value" : "Nimesh Official"
+      },
+    "PREFIX": {
+    "description": "Put Prefix Example: .",
+     "value" : "."
+    },
+  "OWNER_NUMBER": {
+    "description": "Owner number",
+     "value" : "94786802371"
+    },
+   "LOGO": {
+    "description": "Logo for bot.",
+     "value": "https://telegra.ph/file/17d25248a18357d93d98e.jpg"
+    },
+    "ANTI_BAD_WORD": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "required" :false
+    },
+   "ANTILINK_VALUES": {
+    "description": "Put words for antilink",
+     "value": "chat.whatsapp.com,fb.com,instagram.com",
+     "required" :false
+    },
+     "ONLY_GROUP": {
+    "description": "Online group",
+     "value": "false",
+     "required" :false
+    }
+},
+"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	}
+}
